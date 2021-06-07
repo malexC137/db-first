@@ -1,0 +1,13 @@
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+th {
+    background-color: rgb(255, 238, 0);
+    border: solid 1px lightgray;
+}
+
+td {
+    border: solid 1px lightgray;
+}

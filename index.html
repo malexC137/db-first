@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nome colonna</th>
+            <th>Type</th>
+            <th>Attributes</th>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>MEDIUMINT</td>
+            <td>AUTO_INCREMENT, UNIQUE, NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Marca</td>
+            <td>VARCHAR(100)</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Modello</td>
+            <td>VARCHAR(100)</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Alimentazione</td>
+            <td>VARCHAR(100)</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Cilindrata (Cc)</td>
+            <td>FLOAT(6,2)</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Potenza (Cv)</td>
+            <td>FLOAT(5,2)</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Anno d'immatricolazione</td>
+            <td>YEAR</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Paese d'immatricolazione</td>
+            <td>CHAR(3)</td>
+            <td>DEFAULT("IT")</td>
+        </tr>
+        <tr>
+            <td>Chilometraggio</td>
+            <td>FLOAT(9,2)</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Cambio</td>
+            <td>VARCHAR(20)</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Tipo veicolo</td>
+            <td>VARCHAR(20)</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Numero di proprietari</td>
+            <td>BIT(10)</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Ultimo tagliando effettuato</td>
+            <td>DATE</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Stato gomme</td>
+            <td>VARCHAR(20)</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Scadenza bollo</td>
+            <td>DATE</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Peso veicolo (Kg)</td>
+            <td>FLOAT(7,2)</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Prezzo (€)</td>
+            <td>FLOAT(9,2)</td>
+            <td>NOT_NULL</td>
+        </tr>
+        <tr>
+            <td>Equipaggiamento</td>
+            <td>VARCHAR(255)</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Optionals</td>
+            <td>VARCHAR(255)</td>
+            <td>NULL</td>
+        </tr>
+        <tr>
+            <td>Descrizione condizioni veicolo</td>
+            <td>VARCHAR(255)</td>
+            <td>NULL</td>
+        </tr>
+    </table>
+</body>
+</html>
